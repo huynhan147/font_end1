@@ -89,13 +89,13 @@
     height: 500px;
     background-color: #242a31;
     position: absolute;
-    top: 1250px;
+    bottom: 0px;
     color: white; }
     .container .contact .address {
       display: flex;
       position: absolute;
       top: 80px;
-      left: 85px; }
+      left: 105px; }
       .container .contact .address p {
         font-size: 20px;
         font-family: Montserrat-Regular;
@@ -104,7 +104,7 @@
       display: flex;
       position: absolute;
       top: 180px;
-      left: 80px; }
+      left: 105px; }
       .container .contact .phone p {
         font-size: 20px;
         font-family: Montserrat-Regular;
@@ -113,7 +113,7 @@
       display: flex;
       position: absolute;
       top: 280px;
-      left: 80px; }
+      left: 105px; }
       .container .contact .mail p {
         font-size: 20px;
         font-family: Montserrat-Regular;
@@ -121,7 +121,7 @@
     .container .contact .link {
       position: absolute;
       top: 400px;
-      left: 80px; }
+      left: 105px; }
       .container .contact .link p {
         font-size: 25px;
         font-family: Montserrat-ExtraBold;
