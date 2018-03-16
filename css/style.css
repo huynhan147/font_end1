@@ -14,49 +14,46 @@
   max-width: 1500px;
   min-height: 800px;
   display: flex;
-  flex-direction: column;
-  position: relative; }
+  flex-direction: column; }
   .container .header {
     width: 100%;
     height: 250px;
-    position: relative; }
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
     .container .header p {
       font-family: 'Montserrat-ExtraBold';
       font-weight: bold;
       font-size: 40px;
-      position: absolute;
       text-align: right;
-      left: 45%;
-      top: 32%;
       color: #fbcc4b; }
     .container .header .images {
-      position: absolute;
-      top: 75px;
-      right: 0px; }
+      margin-left: 15px; }
   .container .content1 {
     width: 100%;
     height: 500px;
     background-color: #242a31;
     color: white;
-    position: relative; }
-    .container .content1 img {
-      float: right; }
+    display: flex;
+    flex-direction: column; }
+    .container .content1 .image-content1 {
+      margin-left: 68.1%; }
     .container .content1 .word {
-      position: absolute;
-      width: 610px;
-      height: 400px;
+      width: 50%;
+      height: 100%;
       font-size: 40px;
-      left: 600px;
-      top: 60px;
-      line-height: 75px; }
+      padding: 20px;
+      margin-left: 40%;
+      line-height: 85px; }
       .container .content1 .word p.small {
         font-family: 'Montserrat-Regular';
         text-transform: uppercase;
-        text-align: right; }
+        text-align: right;
+        font-size: 50px; }
       .container .content1 .word p.big {
         font-family: 'Montserrat-ExtraBold';
         text-transform: uppercase;
-        font-size: 100px;
+        font-size: 105px;
         font-weight: bold;
         text-align: right;
         color: #fbcc4b; }
@@ -67,68 +64,102 @@
         text-align: right;
         font-family: 'Montserrat-Regular'; }
   .container .content2 {
-    width: 1348px;
+    width: 100%;
     height: 800px;
     background: url("../images/banner.jpg");
-    background-size: cover; }
+    background-size: cover;
+    position: relative; }
+    .container .content2 .word4 {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      width: 48%;
+      margin-right: 95px;
+      padding-top: 35px;
+      z-index: 2;
+      text-align: right;
+      margin-top: 0px; }
+      .container .content2 .word4 .big {
+        font-size: 100px;
+        font-family: Montserrat-ExtraBold;
+        text-transform: uppercase;
+        color: white;
+        text-align: right;
+        padding: 35px 0px; }
+      .container .content2 .word4 .small {
+        text-align: right;
+        font-size: 18px;
+        font-family: Montserrat-Regular;
+        color: white;
+        font-weight: bold; }
   .container .footer {
     width: 100%;
     height: 200px;
-    background-color: #242a31; }
+    background-color: #242a31;
+    display: flex;
+    justify-content: flex-end; }
+    .container .footer .logo-footer {
+      padding-right: 400px;
+      padding-top: 35px;
+      width: 350px;
+      height: 100px;
+      z-index: 2;
+      display: flex; }
+      .container .footer .logo-footer img {
+        padding: 35px 50px; }
   .container .first {
     width: 67%;
-    height: 1001px;
+    height: 125%;
     background-color: #18b3e2;
     opacity: 0.5;
     z-index: 1;
-    position: absolute;
-    top: 751px;
-    left: 33%; }
+    float: right; }
   .container .contact {
     width: 33%;
     height: 500px;
     background-color: #242a31;
     position: absolute;
+    top: 1250px;
+    color: white;
     bottom: 0px;
-    color: white; }
+    z-index: 999;
+    display: flex;
+    flex-direction: column; }
     .container .contact .address {
+      margin-top: 105px;
       display: flex;
-      position: absolute;
-      top: 80px;
-      left: 105px; }
+      margin-left: 105px; }
       .container .contact .address p {
         font-size: 20px;
         font-family: Montserrat-Regular;
-        padding: 30px 0px 0px 20px; }
+        padding: 30px 0px 10px 20px; }
     .container .contact .phone {
       display: flex;
-      position: absolute;
-      top: 180px;
-      left: 105px; }
+      margin-top: 35px;
+      margin-left: 105px; }
       .container .contact .phone p {
         font-size: 20px;
         font-family: Montserrat-Regular;
-        padding: 30px 0px 0px 20px; }
+        padding: 30px 0px 10px 20px; }
     .container .contact .mail {
       display: flex;
-      position: absolute;
-      top: 280px;
-      left: 105px; }
+      margin-top: 35px;
+      margin-left: 105px; }
       .container .contact .mail p {
         font-size: 20px;
         font-family: Montserrat-Regular;
-        padding: 20px 0px 0px 20px; }
+        padding: 20px 0px 10px 20px; }
     .container .contact .link {
-      position: absolute;
-      top: 400px;
-      left: 105px; }
+      margin-top: 45px;
+      margin-left: 105px; }
       .container .contact .link p {
         font-size: 25px;
         font-family: Montserrat-ExtraBold;
         color: #fbcc4b; }
   .container .first2 {
     width: 25%;
-    height: 1250px;
+    height: 1550px;
     background-color: #FFCC19;
     opacity: 0.8;
     z-index: 1;
@@ -138,9 +169,7 @@
     .container .first2 .slogen {
       width: 100%;
       height: 20%;
-      position: absolute;
-      top: 80px;
-      left: 10px;
+      padding-top: 75px;
       line-height: 55px;
       text-align: center; }
       .container .first2 .slogen p {
@@ -170,44 +199,13 @@
   .container .word3 {
     position: absolute;
     left: 160px;
-    top: 900px;
+    top: 920px;
     width: 220px;
     height: 150px;
     line-height: 40px;
-    font-weight: bold;
     color: white;
     z-index: 1;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-ExtraBold';
     font-size: 30px;
     text-align: left;
     color: white; }
-  .container .word4 {
-    height: 700px;
-    width: 48%;
-    z-index: 2;
-    position: absolute;
-    top: 800px;
-    left: 40%;
-    text-align: right; }
-    .container .word4 .big {
-      font-size: 100px;
-      font-family: Montserrat-ExtraBold;
-      text-transform: uppercase;
-      color: white;
-      padding: 35px 0px; }
-    .container .word4 .small {
-      text-align: right;
-      font-size: 18px;
-      font-family: Montserrat-Regular;
-      color: white;
-      font-weight: bold; }
-  .container .logo-footer {
-    width: 450px;
-    height: 100px;
-    position: absolute;
-    top: 1600px;
-    left: 50%;
-    z-index: 2;
-    display: flex; }
-    .container .logo-footer img {
-      padding: 35px; }
