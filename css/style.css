@@ -12,10 +12,10 @@
 
 .container {
   width: 100%;
-  min-height: 800px;
+  min-height: 60vw;
   position: relative; }
   .container .wrapper {
-    margin: 45px 45px 0px 65px;
+    margin: 3.4vw 3.4vw 0vw 5vw;
     width: 90%;
     max-height: 96%;
     position: absolute;
@@ -23,150 +23,189 @@
     z-index: 2; }
     .container .wrapper .word-header {
       color: #FFD133;
-      font-size: 40px;
+      font-size: 3vw;
       font-family: Montserrat-ExtraBold;
       text-align: right;
-      height: 200px; }
+      height: 15vw; }
       .container .wrapper .word-header .word-header-2 {
-        font-size: 100px;
+        font-size: 7.5vw;
         text-transform: uppercase;
         float: left; }
         .container .wrapper .word-header .word-header-2 .slogen {
           display: flex;
           flex-direction: column;
-          line-height: 55px;
+          line-height: 4.2vw;
           color: white;
-          padding-left: 15px; }
+          padding-left: 0.4vw; }
           .container .wrapper .word-header .word-header-2 .slogen span.small {
-            font-size: 25px;
+            font-size: 2vw;
             font-family: Montserrat-Regular;
-            padding-right: 25px; }
+            padding-right: 2vw; }
           .container .wrapper .word-header .word-header-2 .slogen .big {
-            font-size: 105px;
-            padding-left: 50px;
-            padding-top: 25px; }
+            font-size: 8vw;
+            padding-left: 3.8vw;
+            padding-top: 2vw; }
       .container .wrapper .word-header .word1 {
-        padding-top: 20px;
-        padding-right: 45px; }
+        padding-top: 1.5vw;
+        padding-right: 3.4vw; }
+        .container .wrapper .word-header .word1 img {
+          width: 5.7vw;
+          height: 2vw; }
     .container .wrapper .word-content1 {
       color: white;
       text-align: right;
-      line-height: 75px;
-      height: 500px;
+      line-height: 5.7vw;
+      height: 38vw;
       position: relative; }
       .container .wrapper .word-content1 .word {
         position: absolute;
-        top: 50px;
+        top: 3.8vw;
         right: 0px;
-        padding-right: 35px;
+        padding-right: 2.7vw;
         padding-top: 0px; }
         .container .wrapper .word-content1 .word .small {
-          font-size: 50px;
+          font-size: 3.8vw;
           font-family: Montserrat-Regular;
           text-transform: uppercase;
           font-weight: bold; }
         .container .wrapper .word-content1 .word .big {
           font-family: Montserrat-ExtraBold;
-          font-size: 100px;
+          font-size: 7.5vw;
           color: #FBCE2F;
           text-transform: uppercase; }
         .container .wrapper .word-content1 .word .word-content {
-          line-height: 30px;
-          font-size: 21px;
-          padding-top: 35px;
+          line-height: 2.2vw;
+          font-size: 1.6vw;
+          padding-top: 2.7vw;
           font-family: Montserrat-Regular; }
       .container .wrapper .word-content1 .word2 {
-        line-height: 25px;
+        line-height: 2vw;
         text-align: left;
         font-family: Montserrat-Regular;
-        font-size: 21px;
-        padding-top: 265px;
-        padding-left: 75px; }
+        font-size: 1.6vw;
+        padding-top: 20vw;
+        padding-left: 5vw; }
+        .container .wrapper .word-content1 .word2 img {
+          width: 5.7vw;
+          height: 2vw; }
     .container .wrapper .word-content2 {
       color: white;
       position: relative; }
       .container .wrapper .word-content2 .word1 {
         text-align: left;
         font-family: Montserrat-Regular;
-        font-size: 35px;
-        padding-top: 180px;
-        padding-left: 75px;
+        font-size: 2.6vw;
+        padding-top: 13.5vw;
+        padding-left: 5vw;
         font-weight: bold; }
+        .container .wrapper .word-content2 .word1 img {
+          width: 5.7vw;
+          height: 2vw; }
       .container .wrapper .word-content2 .word2 {
         position: absolute;
-        top: 50px;
-        right: 0px;
-        padding-right: 35px;
+        top: 3.8vw;
+        right: 0vw;
+        padding-right: 2.6vw;
         text-align: right; }
+        .container .wrapper .word-content2 .word2 img {
+          width: 2vw;
+          height: 5.7vw; }
         .container .wrapper .word-content2 .word2 .big {
-          font-size: 100px;
+          font-size: 7.5vw;
           text-transform: uppercase;
           font-family: Montserrat-ExtraBold;
-          padding: 25px 0px 25px 25px; }
+          padding: 2vw 0vw 2vw 2vw; }
         .container .wrapper .word-content2 .word2 .small {
-          font-size: 21px;
+          font-size: 1.6vw;
           font-family: Montserrat-ExtraBold; }
     .container .wrapper .word-contact {
-      margin-top: 225px;
-      font-size: 21px;
+      margin-top: 17vw;
+      font-size: 1.6vw;
       font-family: Montserrat-Regular;
       font-weight: bold;
       color: white;
       width: 33.33%; }
       .container .wrapper .word-contact .address {
         display: flex;
-        padding: 15px 15px 15px 0px; }
+        padding: 1.2vw 1.2vw 1.2vw 0vw; }
+        .container .wrapper .word-contact .address img {
+          width: 3vw;
+          height: 3.8vw; }
         .container .wrapper .word-contact .address p {
-          padding-left: 25px;
-          padding-top: 15px; }
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
       .container .wrapper .word-contact .phone {
-        padding: 15px 15px 15px 0px;
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
         display: flex; }
+        .container .wrapper .word-contact .phone img {
+          width: 3.8vw;
+          height: 3.8vw; }
         .container .wrapper .word-contact .phone p {
-          padding-left: 25px;
-          padding-top: 15px; }
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
       .container .wrapper .word-contact .mail {
-        padding: 15px 15px 15px 0px;
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
         display: flex; }
+        .container .wrapper .word-contact .mail img {
+          width: 3.8vw;
+          height: 3vw; }
         .container .wrapper .word-contact .mail p {
-          padding-left: 25px;
-          padding-top: 15px; }
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
       .container .wrapper .word-contact .link {
         color: #FBCE2F;
         font-family: Montserrat-ExtraBold;
-        font-size: 21px;
-        padding: 35px 15px 15px 0px;
-        margin-top: 15px; }
+        font-size: 1.5vw;
+        padding: 2.5vw 1.2vw 1.2vw 0vw;
+        margin-top: 1.2vw; }
     .container .wrapper .logo-footer {
       display: flex;
       float: right;
       position: relative;
-      bottom: 65px;
-      margin-right: 105px;
-      padding-bottom: 25px; }
+      bottom: 5vw;
+      margin-right: 8vw;
+      padding-bottom: 2vw; }
       .container .wrapper .logo-footer div {
-        padding-left: 65px; }
+        padding-left: 5vw; }
+      .container .wrapper .logo-footer .logo1 img {
+        width: 12.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo2 img {
+        width: 4.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo3 img {
+        width: 4.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo4 img {
+        width: 4.5vw;
+        height: 4.5vw; }
   .container .header {
     width: 100%;
-    height: 250px; }
+    height: 19vw; }
     .container .header .images {
       float: right;
-      margin-top: 70px; }
+      margin-top: 5vw;
+      width: 8vw;
+      height: 8vw;
+      background-color: #ffc709; }
   .container .content1 {
     width: 100%;
-    height: 500px;
+    height: 37.5vw;
     background-color: #242a31;
     color: white; }
     .container .content1 .image-content1 {
       float: right; }
+      .container .content1 .image-content1 img {
+        width: 32vw;
+        height: 2.6vw; }
   .container .content2 {
     width: 100%;
-    height: 800px;
+    height: 60vw;
     background: url("../images/banner.jpg");
     background-size: cover; }
   .container .footer {
     width: 100%;
-    min-height: 200px;
+    min-height: 15vw;
     background-color: #242a31; }
   .container .first {
     width: 68.67%;
@@ -177,7 +216,7 @@
     float: right; }
   .container .contact {
     width: 31.8%;
-    height: 500px;
+    height: 37.5vw;
     background-color: #242a31;
     position: absolute;
     bottom: 0px; }

@@ -13,10 +13,10 @@
 .container{
 
   width:100%;
-  min-height:800px;
+  min-height:60vw;
   position: relative;
   .wrapper{
-    margin: 45px 45px 0px 65px;
+    margin: 3.4vw 3.4vw 0vw 5vw ;
     //padding-bottom: 15px;
     //border: 1px solid red;
     width: 90%;
@@ -26,16 +26,16 @@
     z-index: 2;
     .word-header{
       color:#FFD133 ;
-      font-size: 40px;
+      font-size:3vw;
       font-family: Montserrat-ExtraBold;
       text-align: right;
-      height:200px;
+      height:15vw;
       //display: flex;
       //.word-header p{
       //}
 
       .word-header-2{
-        font-size: 100px;
+        font-size: 7.5vw;
         text-transform: uppercase;
         float: left;
         //clear: right;
@@ -46,29 +46,33 @@
           //margin-bottom: 55px;
           display: flex;
           flex-direction: column;
-          line-height: 55px;
+          line-height: 4.2vw;
           color: white;
-          padding-left: 15px;
+          padding-left: 0.4vw;
           //text-align: right;
 
           span.small{
-            font-size: 25px;
+            font-size: 2vw;
             font-family: Montserrat-Regular;
             //float: left;
-            padding-right: 25px;
+            padding-right: 2vw;
           }
           .big{
-            font-size: 105px;
-            padding-left: 50px;
-            padding-top: 25px ;
+            font-size: 8vw;
+            padding-left: 3.8vw;
+            padding-top: 2vw ;
           }
         }
 
 
        }
       .word1{
-        padding-top: 20px;
-        padding-right: 45px;
+        padding-top: 1.5vw;
+        padding-right: 3.4vw;
+        img{
+          width: 5.7vw;
+          height: 2vw;
+        }
         //width: 80%;
       }
       }
@@ -77,18 +81,18 @@
       color: white;
       text-align: right;
       //font-size: 40px;
-      line-height: 75px;
+      line-height: 5.7vw;
       //display: flex;
-      height: 500px;
+      height: 38vw;
       position: relative;
 
       .word{
         //border: 1px solid red;
         position: absolute;
-        top: 50px;
+        top: 3.8vw;
         right: 0px;
         //padding-top: 65px;
-        padding-right: 35px;
+        padding-right: 2.7vw;
         //padding-bottom: 25px;
         //width: 70%;
         //float: right;
@@ -97,35 +101,39 @@
         //padding-left: 30%;
         //float: right;
         .small{
-          font-size: 50px;
+          font-size: 3.8vw;
           font-family:Montserrat-Regular;
           text-transform: uppercase;
           font-weight: bold;
         }
         .big{
           font-family: Montserrat-ExtraBold;
-          font-size: 100px;
+          font-size: 7.5vw;
           color:#FBCE2F;
           text-transform: uppercase;
           //margin-right: 0px;
 
         }
         .word-content{
-          line-height: 30px;
-          font-size: 21px;
-          padding-top: 35px;
+          line-height: 2.2vw;
+          font-size: 1.6vw;
+          padding-top: 2.7vw;
           font-family: Montserrat-Regular;
         }
       }
       .word2{
         //padding-bottom: 50px;
-        line-height: 25px;
+        line-height: 2vw;
         text-align: left;
         //width: 30%;
         font-family: Montserrat-Regular;
-        font-size: 21px;
-        padding-top: 265px;
-        padding-left: 75px;
+        font-size: 1.6vw;
+        padding-top: 20vw;
+        padding-left: 5vw;
+        img{
+          width: 5.7vw;
+          height: 2vw;
+        }
       }
     }
     .word-content2{
@@ -136,74 +144,96 @@
         text-align: left;
         //width: 30%;
         font-family: Montserrat-Regular;
-        font-size: 35px;
-        padding-top: 180px;
-        padding-left: 75px;
+        font-size: 2.6vw;
+        padding-top: 13.5vw;
+        padding-left: 5vw;
         font-weight: bold;
+        img{
+          width: 5.7vw;
+          height: 2vw;
+        }
 
       }
       .word2{
         position: absolute;
-        top:50px;
+        top:3.8vw;
         //float: right;
-        right:0px;
-        padding-right: 35px;
+        right:0vw;
+        padding-right: 2.6vw;
         text-align: right;
         //line-height: 75px;
         //border: 1px solid red;
+        img{
+          width: 2vw;
+          height: 5.7vw;
+        }
         .big{
-          font-size: 100px;
+          font-size: 7.5vw;
           text-transform: uppercase;
           font-family: Montserrat-ExtraBold;
-          padding: 25px 0px 25px 25px;
+          padding: 2vw 0vw 2vw 2vw;
 
           //font-weight: bold;
         }
         .small{
           //font-weight: bold;
-          font-size: 21px;
+          font-size: 1.6vw;
           font-family: Montserrat-ExtraBold;
         }
       }
     }
     .word-contact{
-      margin-top: 225px;
+      margin-top: 17vw;
       //border: 1px solid red;
-      font-size: 21px;
+      font-size: 1.6vw;
       font-family: Montserrat-Regular;
       font-weight: bold;
       color: white;
       width: 33.33%;
       .address{
+
         display: flex;
-        padding: 15px 15px 15px 0px;
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
+        img{
+          width: 3vw;
+          height: 3.8vw;
+        }
         p{
-          padding-left: 25px;
-          padding-top: 15px;
+          padding-left: 2vw;
+          padding-top: 1.2vw;
         }
       }
       .phone{
-        padding: 15px 15px 15px 0px;
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
         display: flex;
+        img{
+          width: 3.8vw;
+          height: 3.8vw;
+        }
         p{
-          padding-left: 25px;
-          padding-top: 15px;
+          padding-left: 2vw;
+          padding-top: 1.2vw;
         }
       }
       .mail{
-        padding: 15px 15px 15px 0px;
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
         display: flex;
+        img{
+          width: 3.8vw;
+          height: 3vw;
+
+        }
         p{
-          padding-left: 25px;
-          padding-top: 15px;
+          padding-left: 2vw;
+          padding-top: 1.2vw;
         }
       }
       .link{
         color:#FBCE2F;
         font-family: Montserrat-ExtraBold;
-        font-size: 21px;
-        padding: 35px 15px 15px 0px;
-        margin-top: 15px;
+        font-size: 1.5vw;
+        padding: 2.5vw 1.2vw 1.2vw 0vw;
+        margin-top: 1.2vw;
       }
     }
     .logo-footer{
@@ -213,47 +243,73 @@
       float: right;
       //border: 1px solid red;
       position: relative;
-      bottom:65px;
+      bottom:5vw;
       //margin-right: 15px;
       //justify-items: center;
       //align-content: center;
       //padding-left: 105px;
-      margin-right: 105px;
-      padding-bottom: 25px;
+      margin-right: 8vw;
+      padding-bottom: 2vw;
       //margin-bottom: 65px;
       //height: 100px;
      div{
-
-       padding-left: 65px;
+       padding-left: 5vw;
        //padding-bottom: 35px;
        //margin-bottom: 65px;
      }
+      .logo1 img{
+        width: 12.5vw;
+        height: 4.5vw;
+
+      }
+      .logo2 img{
+        width: 4.5vw;
+        height: 4.5vw;
+      }
+      .logo3 img{
+        width: 4.5vw;
+        height: 4.5vw;
+
+      }
+      .logo4 img{
+        width: 4.5vw;
+        height: 4.5vw;
+
+      }
     }
 
 
   }
   .header{
     width: 100%;
-    height: 250px;
+    height: 19vw;
     .images{
       float:right;
-      margin-top: 70px;
+      margin-top: 5vw;
+      width: 8vw;
+      height: 8vw;
+      background-color: #ffc709;
+
     }
   }
   .content1{
     width: 100%;
-    height: 500px;
+    height: 37.5vw;
     background-color: #242a31;
     color: white;
     .image-content1{
       float :right;
+      img{
+        width: 32vw;
+        height: 2.6vw;
+      }
     }
 
 
   }
     .content2{
       width: 100%;
-      height: 800px;
+      height: 60vw;
       background: url('../images/banner.jpg');
       background-size: cover;
 
@@ -261,7 +317,7 @@
     }
     .footer{
       width: 100%;
-      min-height: 200px;
+      min-height: 15vw;
       background-color: #242a31;
     }
     .first {
@@ -274,7 +330,7 @@
     }
   .contact{
     width: 31.8%;
-    height: 500px;
+    height: 37.5vw;
     background-color: #242a31;
     position: absolute;
     bottom :0px;
